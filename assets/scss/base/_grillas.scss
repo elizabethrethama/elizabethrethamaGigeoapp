@@ -5,6 +5,16 @@
   max-height: 2000px;
 }
 
+#container2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icon1, .icon2, .icon3, .icon4 {
+font-size: 20px;
+padding: 10px;
+}
+
 .container1 {
     width: 1345px;
     height: 200px;
@@ -23,6 +33,7 @@
     min-width: 100%;
 }
 
+
  .circular--square {
   border-radius: 50%;
 }
@@ -32,19 +43,18 @@
   height: 100%;
   margin-top: 20px;
   margin-left: 65px;
+  border-radius: 70%;
 }
 
 .Nombre {
   margin-top: 20px;
   margin-left: 25px;
+  display: flex;
+
 }
 
 .seguidores   {
   display: flex;
-  margin-top: 20px;
-  margin-left: 25px;
-}
-
-.ul         {
-
+  margin-top: -20px;
+  margin-left: 153px;
 }

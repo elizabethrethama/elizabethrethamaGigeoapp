@@ -1,7 +1,13 @@
-#botones {
-  position: absolute;
-  width: 100%;
+
+.container-flex   {
   display: flex;
   justify-content: flex-end;
-  text-align: left;
+}
+
+.btn-boton1   {
+  margin-left: 10px;
+}
+
+.btn-boton2   {
+  margin-left: 10px;
 }

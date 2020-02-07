@@ -1,8 +1,43 @@
+.logo {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+sub {
+  bottom: 1.75em;
+  font-weight: 600;
+}
+
+.seguidores {
+  font-size: 15px;
+}
+
+.Nombre {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.titulo1 {
+  font-weight: 600;
+  font-size: 30px;
+  padding: 20px;
+}
+
 * {
   margin: 0px;
   padding: 0px;
   max-width: 1345px;
   max-height: 2000px;
+}
+
+#container2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icon1, .icon2, .icon3, .icon4 {
+  font-size: 20px;
+  padding: 10px;
 }
 
 .container1 {
@@ -33,29 +68,36 @@
   height: 100%;
   margin-top: 20px;
   margin-left: 65px;
+  border-radius: 70%;
 }
 
 .Nombre {
   margin-top: 20px;
   margin-left: 25px;
+  display: flex;
 }
 
 .seguidores {
   display: flex;
-  margin-top: 20px;
-  margin-left: 25px;
+  margin-top: -20px;
+  margin-left: 153px;
 }
 
 .contenedor2 {
   background-image: url("img/image-banner.png");
 }
 
-#botones {
-  position: absolute;
-  width: 100%;
+.container-flex {
   display: flex;
   justify-content: flex-end;
-  text-align: left;
+}
+
+.btn-boton1 {
+  margin-left: 10px;
+}
+
+.btn-boton2 {
+  margin-left: 10px;
 }
 
 .btn-boton1 {
@@ -66,6 +108,10 @@
 .btn-boton2 {
   color: white;
   background-color: coral;
+}
+
+.seguidores {
+  color: grey;
 }
 
 /*# sourceMappingURL=style.css.map */
